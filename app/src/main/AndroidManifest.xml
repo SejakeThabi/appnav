@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AboutUs" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+          android:theme="@style/Theme.AppCompat.DayNight">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
